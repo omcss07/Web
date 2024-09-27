@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is society</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='./stylesheet.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="div_static_title">
+        <h1>THIS IS SOCIETY</h1>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class='bx bxs-cube-alt' style='color:#ffffff' ></i>
+                <span>This is society</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="./dashboard.html">
+                    <i class="bx bxs-grid-alt"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="./info.html">
+                    <i class='bx bx-info-circle'></i>
+                    <span class="nav-item">Info</span>
+                </a>
+                <span class="tooltip">Info</span>
+            </li>
+            <li>
+                <a href="./contacts.html">
+                    <i class='bx bxs-contact'></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+                <span class="tooltip">Contact</span>
+            </li>
+            <li>
+                <a href="./articles.html">
+                    <i class='bx bxl-slack'></i>
+                    <span class="nav-item">Articles</span>
+                </a>
+                <span class="tooltip">Articles</span>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h2>About me</h2>
+                    <p class="p-1">
+                        In an age where technology shapes our daily lives and interactions, I am driven by a vision of a society that can engage with these advancements thoughtfully and ethically. My project aims to provide a platform for individuals to share news and express opinions about the societal impacts of technology, particularly in areas like artificial intelligence, justice, and human behavior.
+                    </p>
+                    <p class="p-2">
+                        Inspired by the works of Yuval Noah Harari, Ray Bradbury, and Aldous Huxley, I initiated this project with the hope of changing perspectives and creating a vision of a harmonious society. My goal is to foster collaboration and understanding, rather than division and destruction, as we navigate the complexities of our technological landscape together
+                    </p>
+                    <h3>Personal information</h3>
+                    <p>
+                        <a class="mail" href="mailto:o.coss1907@gmail.com">o.coss1907@gmail.com</a>
+                    </p>
+                    <p>
+                        <a href="tel:+18290000000">+ 1 (829)-000-000</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="./Imagenes/Captura de Pantalla 2024-09-25 a la(s) 6.12.19 p. m..png">
+                </div>  
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>

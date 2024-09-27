@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is society</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='./stylesheet.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="div_static_title">
+        <h1>THIS IS SOCIETY</h1>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class='bx bxs-cube-alt' style='color:#ffffff' ></i>
+                <span>This is society</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="./dashboard.html">
+                    <i class="bx bxs-grid-alt"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="./info.html">
+                    <i class='bx bx-info-circle'></i>
+                    <span class="nav-item">Info</span>
+                </a>
+                <span class="tooltip">Info</span>
+            </li>
+            <li>
+                <a href="./contacts.html">
+                    <i class='bx bxs-contact'></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+                <span class="tooltip">Contact</span>
+            </li>
+            <li>
+                <a href="./articles.html">
+                    <i class='bx bxl-slack'></i>
+                    <span class="nav-item">Articles</span>
+                </a>
+                <span class="tooltip">Articles</span>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container-info">
+            <h2 class="h2-wab">WHAT IS ALL ABOUT</h2>
+                <h3> Mision </h3>
+                    <p class="p-body">
+                        Our mission is to provide a platform where people can share news, and express their opinions freely and responsibly. Through reflection on the impact of technology, we aim to educate society on crucial issues such as artificial intelligence dependence, ensuring that individuals are informed and engaged in shaping a future where technology serves humanity without undermining essential human skills.
+                    </p>
+                <h3> Vision </h3>
+                    <p class="p-body">
+                        Our vision is to foster a more informed and critically engaged society, where individuals and communities can navigate the complexities of technological advancements responsibly. By exploring the potential consequences of technology in areas like justice, human behavior, and social change, we seek to shape a future where technological solutions are used to address societal issues equitably, while maintaining ethical standards and protecting human dignity.
+                    </p>
+                <h3> Method </h3>
+                    <p class="p-body">
+                        The method involves a multidimensional approach that combines user-generated content, technological analysis, and educational resources. Users will be able to share their insights on the societal impact of technology, while a censorship system ensures respectful and accurate discourse. In addition, in-depth research on topics such as AI, justice systems, and historical behaviors will be presented, with an emphasis on comparison between past and present technological revolutions, exploring how public policy and education can help mitigate negative effects.
+                    </p>
+            </div>
+            
+                    <div class="line-fondo"></div>
+                    <div class="container-L2">
+                        <div class="row">
+                            <div class="column-info">
+                                <h2 class="h2-infopage">INTRODUCTION TO SOCIETY</h2>
+                            </div>
+                            <div class="column-info">
+                                <p class="p-white">In today's rapidly evolving digital landscape, the intersection of technology and society is becoming increasingly complex. As technological innovations like artificial intelligence, automation, and data-driven decision-making transform our world, it is crucial to remain vigilant and reflective about their potential impact on human lives. Our platform is dedicated to providing a space where thoughtful dialogue and critical analysis converge, empowering individuals to contribute to meaningful discussions on the role of technology in shaping the future.</p>
+                                    <p class="p-white">By engaging with diverse perspectives and offering educational tools, we aim to cultivate a community that not only shares knowledge but also actively participates in guiding the direction of technological progress. Through a balanced approach to freedom of expression, coupled with a commitment to responsible discourse, we are working towards a world where technology complements rather than diminishes human potential, and where ethical considerations take center stage in shaping policy and practice.</p>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>
