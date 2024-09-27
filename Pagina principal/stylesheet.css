@@ -148,8 +148,8 @@ nav {
 }
 
 .sidebar.active ~ .main-content {
+    width: calc(95%-250px);
     left: 250px;
-    width: 95%;
 }
 
 .sidebar.active {
@@ -259,7 +259,7 @@ nav {
 /* content and cages */
 
 .main-content {
-    position: sticky;
+    position: relative;
     min-height: 100vh; 
     top: 0;
     left: 80px;
