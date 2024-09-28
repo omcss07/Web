@@ -1,1 +1,1 @@
-social media propyect
+social media proyect
